@@ -20,7 +20,7 @@
             </ul>
         </div>
     @endif
-    
+
         <form id="formAuthentication" class="mb-3" action="{{route('login')}}" method="POST">
             @csrf
             <div class="mb-3">
